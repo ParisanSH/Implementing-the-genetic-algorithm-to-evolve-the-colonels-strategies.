@@ -17,3 +17,8 @@ Tournament selection
 10% elitism
 
 ![image](https://user-images.githubusercontent.com/14861041/210170203-f9a7b8fd-5980-4f05-84ff-ea525ceaf1bc.png)
+
+Then experiments with different parameter setups have been made. Here are some parameters that have been changed during the different experiments:
+1.	Different mutation operator
+2.	Different selection mechanism
+3.	For the third experiment, I have considered redistributing the soldiers to have a higher winning chance. Troop redistribution - If Colonel A wins a battle with X troops versus Colonel B’s Y troops, then the (X-Y) extra troops can be re-deployed in all succeeding battles (in Colonel A’s strategy), by evenly distributing R(X-Y) resources among the remaining battles, where R  is in range of [0,1].
